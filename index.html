@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Rock-Papper-Scissor</title>
+</head>
+<body>
+    <div class="container">
+        <div id="title">Choose Any One</div>
+        <div id="images">
+            <img src="./pictures/rock.png" alt="Rock">
+            <img src="./pictures/papper.png" alt="papper">
+            <img src="./pictures/scissors.png" alt="scissors">
+        </div>
+        <div class="hand">
+            <div class="compRes">User: <span id="userRes">----</span></div>
+            <div class="compRes">Computer: <span id="compRes">----</span></div>
+        </div>
+        <div id="result">Result</div>
+        <div class="scores">
+            <div class="score">Your Score: <span id="myScore">0</span></div>
+            <div class="score">Computer Score: <span id="computerScore">0</span></div>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
